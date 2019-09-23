@@ -1,0 +1,1006 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: none;
+    
+  }
+  
+  a:hover {
+    color: #3B53FF;
+  }
+
+  a:active {
+    color: none;
+  }
+
+
+
+/* Pagin Inscreva-se  */
+.caixa-texto{
+    width: 94%;
+}
+  h1    {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .textoinscri{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #626262; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-bottom: 4px;
+}
+
+.custom-select {
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-bottom: 4px;
+
+}
+
+.check{
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 12px;
+    color: #626262;
+    margin-bottom: 4px;
+
+}
+
+.custom-control-label{
+    padding-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+}
+.qp{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #3B53FF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn-enviar{
+    min-width: 118px;
+    height: 30.94px;
+    background: #3B53FF;
+    border-radius: 30px;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    border: solid 1px #3B53FF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+}
+
+.qpm{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #626262;
+    padding-top: 5px;
+    
+}
+
+
+.texto-mob{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.texto {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #626262;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+.c-azul li {
+    border: 1px solid #3B53FF;
+  }
+
+  .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background-color: #3B53FF;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+  }
+
+.c-azul li {
+    border: 1px solid #3B53FF;
+  }
+
+  .carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    background-color: #3B53FF;
+}
+.verde{
+    color: #00DEDE;
+}
+
+.azul{
+    color: #3B53FF;
+}
+
+.text-cinza{
+    color: #626262;
+}
+
+.sb{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-top: 32px;
+}
+
+.di{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #3B53FF;    
+    margin-top: 22px; 
+    margin-bottom: 30px;  
+}
+
+.fp{
+ 
+    font-size: 11.9px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #3B53FF;
+    margin-top: 38px;
+    margin-bottom: 20px;
+  
+}
+
+.space-carousel {
+    height: 90px;
+}
+
+.blocoInscreva{
+    width: 295px;
+    max-width: 400px;
+    height: 247px;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    text-transform: lowercase;
+    background: #FAFAFA;
+    color: #3B53FF;
+    border: 2px solid #3B53FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-top: 40px;
+
+}
+.blocoInscrevaVerde{
+    color: #00DEDE;
+    border: 2px solid #00DEDE;
+}
+
+.icon{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-curva {
+    background-image: url(/img/mk.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+
+}
+
+.pro {
+    margin-bottom: 400px;
+}
+
+.comite{
+    border: 2px solid #3B53FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+}
+.comiteverde{
+    border: 2px solid #00DEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.comiteTitulo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 43px;
+  
+}
+
+ 
+ #program figure{
+     width: 100%;
+     min-height: 600px;
+     overflow:hidden;
+     float:left;
+     text-align: center;
+     color: #FAFAFA;
+     display: block;
+     padding:0;
+     margin: 0;
+     bottom: 0;
+     position: relative;
+     background-color: rgb(49, 86, 252);
+ }
+
+ 
+ 
+ #program figcaption{
+     position: absolute;
+     bottom: 0;
+     padding:0;
+     margin: 0;
+     width: 100%;
+     min-width: 50%;
+ }
+ 
+
+
+.header-curva {
+    background-image: url(/img/header-curva.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text-local{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.text-end{   
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.img-fluid {
+    min-width: 30%;
+  }
+
+  .mob {
+    min-height: 375px;
+    
+  }
+  .insc {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.logovia{
+    width: 135;
+}
+
+.menu  {
+    list-style-type: none; 
+    margin-right: 6%;
+}
+
+.menu  li   {
+    background: #00DEDE;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 15px;
+
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url(/img/br-menu.png);
+    height: 15px;
+}
+
+
+
+ /* Paginas Eventos */
+
+
+
+.logo img{
+    max-width: 120px;
+}
+
+
+
+
+
+.navbar{
+    padding: 50px;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #3B53FF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.azul-marinho{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #00DEDE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.marketing{
+    margin-top: 30px;
+    font-size: 14.5px;
+    line-height: 35px;
+    text-align: center;
+    color: #626262;
+    
+
+}
+
+.progcomp{
+    min-width: 150px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+
+.inscr{
+    min-width: 150px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+@media (min-width: 415px){
+
+    .sb{
+        font-size: 30.5px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #3B53FF;
+        margin-top: 112px;
+    }
+
+    .di{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #3B53FF;       
+    }
+
+    .fp{
+        font-size: 18.5px;
+        line-height: 23px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #626262;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .even {
+        max-width: 50%;
+    }
+
+    .blocoInscreva{
+        
+        max-width: 400px;
+        height: 247px;
+        line-height: 37px;
+        letter-spacing: 0.03em;
+        text-transform: lowercase;
+        background: #FAFAFA;
+        color: #3B53FF;
+        border: 2px solid #3B53FF;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-top: 40px;
+    
+    }
+
+    .insc {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .blocoInscrevaVerde{
+        color: #00DEDE;
+        border: 2px solid #00DEDE;
+    }
+
+    .menu  li   {
+        background: #00DEDE;
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        width: 200px;
+        padding-left: 20px;
+        left: 20px;
+        margin: 5px;
+    }
+
+}
+
+
+@media (min-width: 992px){
+
+    .sb{
+        font-size: 34.5px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #3B53FF;
+        margin-top: 112px;
+    }
+
+    .di{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #3B53FF;       
+    }
+
+    .fp{
+        font-size: 18.5px;
+        line-height: 23px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #626262;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .titulo{
+        font-size: 30px;
+        line-height: 37px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #3B53FF;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .space-carousel {
+        height: 150px;
+
+        margin-bottom: 40px;
+    }
+
+    .inscreva{
+        background-image: url(/img/lin.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+    }
+
+
+    .blocoInscreva{
+        min-width: 450px;
+        height: 367px;
+        left: 172px;
+        background: #FAFAFA;
+        color: #3B53FF;
+        border: 2px solid #3B53FF;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+    
+    }
+
+    .insc {
+        font-size: 50px;
+        line-height: 61px;
+        letter-spacing: 0.03em;
+        text-transform: lowercase
+    }
+
+    .blocoInscrevaVerde{
+        
+        color: #00DEDE;
+        border: 2px solid #00DEDE;
+        
+    }
+
+
+
+
+    .icon{
+        width: 100%;
+    }
+
+    .footer-curva {
+        background-image: url(/img/mk.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        relative:0;
+    
+    
+    }
+
+    .text-local{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 49px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+    }
+
+
+    .text-end{   
+        font-style: normal;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 0.05em;
+    }
+
+ /* Paginas Eventos */
+
+    .caixa-texto{
+        width: 933px;
+    }
+
+    .logo  {
+        margin-top: 80px;
+        margin-left: 130px;
+        width: 100%;
+    
+    }
+
+    .logo img{
+        max-width: 200px;
+    }
+
+    
+    .texto{ 
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 18.5px;
+        line-height: 25px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #626262;
+        
+     
+    }
+
+    .subtitulo{
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 32px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #3B53FF;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .azul-marinho{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38.5px;
+        line-height: 47px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #00DEDE;
+        margin-top: 63px;
+        margin-bottom: 63px;
+  
+    }
+
+
+    /* Patrocinadores */
+    .marketing{
+        margin-top: 120px;
+        font-size: 18.5px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.05em; 
+        color: #626262;
+        
+
+    }
+
+    /* Programacao */
+
+    .divprogra{
+       height: 231px;
+        left: 11.09%;
+        right: 13.2%;
+        top: calc(50% - 231px/2 - 338.5px);
+
+        border: 2px solid #3B53FF;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .formulario{
+        margin-top: 30px;
+    }
+
+    .formulario input{
+        height: 47px;
+        background: rgba(196, 196, 196, 0.2);
+        border-radius: 10px;
+        
+        font-size: 18.5px;
+        line-height: 23px;
+        /* identical to box height */
+        text-align: justify;
+        letter-spacing: 0.05em;
+        border-color: rgba(196, 196, 196, 0.2);;
+        color: #626262;
+    }
+
+    h1    {
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 73px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #3B53FF;
+        text-align: left;
+      }
+
+      .textoinscri{ 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18.5px;
+        line-height: 23px;
+        text-align: justify;
+        letter-spacing: 0.05em;
+        color: #626262;
+
+    }
+
+    .header-curva {
+        background-image: url(/img/header-curva.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+
+
+.form-control {
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-bottom: 8px;
+}
+
+.custom-select {
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-bottom: 8px;
+
+}
+
+.check{
+    background: rgba(196, 196, 196, 0.2);
+    border:1px solid rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+      font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-bottom: 8px;
+
+ 
+}
+
+.custom-control-label{
+    padding-top: 0px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+   
+}
+.qp{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #3B53FF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn-enviar{
+    min-width: 160px;
+    height: 43.00px;
+    background: #3B53FF;
+    border-radius: 30px;
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    border: solid 1px #3B53FF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+}
+
+.qpm{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #626262;
+    padding-top: 5px;
+    
+}
+
+
+.texto-mob{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #626262;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.verde{
+    color: #00DEDE;
+}
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+.popup{
+	display:none;
+  top:100px;
+  position:fixed;
+  left:50%;
+  z-index:9999 !important;
+  
+}
+.popup .wrapper{
+  position:relative; 
+  left:-50%;
+  background-color:#fff;
+  padding:80px;
+  width:620px;
+  height:500px;
+ 
+ 
+}
+
+.popup h1 {
+	font-size: 25px;
+text-align: center;
+margin: 10px;
+}
+
+.popup p {
+	font-size: 21px;
+	line-height: 2;
+	margin: 20px;
+}
+.overlay{
+	display:none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000000;
+	opacity: 0.7;
+	z-index: 9999 !important;
+}
+
+.reserva{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+
+    color: #565656;
+}

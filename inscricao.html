@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inscreva-se</title>
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <div class="container mx-auto">
+
+        <div class="d-flex flex-column justify-content-center caixa-texto mx-auto">
+
+
+            <h1>Inscreva-se</h1>
+            <span class="textoinscri">
+                Preencha o formulário para participar do <span class="bold">  Vianuvem Experience 2019:</span> 
+            </span>
+        </div>
+
+
+        <!-- Fomulario  -->
+
+      
+        <form class="needs-validation  caixa-texto mx-auto" method="POST" action="processa.php" novalidate>
+            <div class="form-row">
+                <div class="col-md-12">
+                    <input type="email" class="form-control" id="validationCustom01" placeholder="Endereço de E-mail"
+                        name="email" required>
+                   
+                </div>
+
+                <div class="col-md-12">
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Empresa"  name="empresa"
+                        required>
+               
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nome" name="nome"
+                        required>
+             
+                </div>
+
+                <div class="col-md-6 ">
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" name="sobrenome"
+                        required>
+                   
+                </div>
+                
+                <div class="row check container p-2 mx-1">
+                        <div class="col-12 bold p-2  ">Faixa etária</div>
+                <div class="col-md-4 ">
+
+                        <div class="custom-control custom-checkbox  ">
+                                <input type="checkbox" class="custom-control-input" id="acima50"  value="Acima de 50 anos" name="radio-stacked" required  >
+                                <label class="custom-control-label" for="acima50">Acima de 50 anos</label>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="45a49" value="45 a 49 anos" name="radio-stacked" required>
+                                <label class="custom-control-label" for="45a49">45 a 49 anos</label>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="40a44" value="40 a 44 anos" name="radio-stacked" required>
+                                <label class="custom-control-label" for="40a44">40 a 44 anos</label>
+                        </div>
+                </div>
+
+                <div class="col-md-4 ">
+                        <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input"  id="35a39" value="35 a 39 anos" name="radio-stacked" required>
+                                <label class="custom-control-label" for="35a39">35 a 39 anos</label>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="30a34"  value="30 a 34 anos" name="radio-stacked" required>
+                                <label class="custom-control-label" for="30a34">30 a 34 anos</label>
+                        </div>
+    
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="25a29"  value="25 a 29 anos" name="radio-stacked"  required>
+                                <label class="custom-control-label" for="25a29">25 a 29 anos</label>
+                        </div>
+                </div>
+
+                <div class="col-md-4">
+                        <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="menos24" value="Menos de 24 anos" name="radio-stacked" required >
+                                <label class="custom-control-label" for="menos24">Menos de 24 anos</label>
+                        </div>
+    
+                </div>
+                </div>
+  
+                <div class="col-md-12 ">
+                        <input type="text" class="form-control" placeholder="Cargo" name="cargo"
+                            required>
+                      
+                </div>
+
+                <div class="col-md-12 ">
+                        <input type="text" id="telefone" class="form-control"  placeholder="Telefone" name="telefone"
+                            required>
+                        
+                </div>
+
+                <div class="col-md-12 ">
+                        <select class="custom-select" name="comoConheceu" id="comoConheceu" required>
+                                <option value="">Como soube do evento ?</option>
+                                <option value="Associações">Associações</option>
+                                <option value="Internet">Internet</option>
+                                <option value="Outro">Outro</option>
+                        </select>
+                      
+                </div>
+
+                <div class="col-md-12 " id="qual" >
+                    <input type="text" id="inputq" class="form-control" placeholder="Qual Associação ?" name="associacao">
+                   
+            </div>
+               
+
+                <div class="form-group">
+                        <div class="qp">QUERO PARTICIPAR</div>
+                <div class="custom-control custom-checkbox ">
+                        <input type="checkbox" class="custom-control-input"  id="dia5" value="05 de novembro - Comitê de TI" name="dia5" required>
+                        <label class="custom-control-label qpm" for="dia5">05 de novembro - <span class="bold">Comitê de TI</span> 
+                            </label>
+                </div>
+
+                <div class="custom-control custom-checkbox ">
+                        <input type="checkbox" class="custom-control-input" id="dia6"  value="06 de novembro - Gestão de Processos" name="dia6" required >
+                        <label class="custom-control-label qpm" for="dia6">06 de novembro - <span class="bold">Gestão de Processos</span> </label>
+                </div>
+             </div>
+
+            </div>
+
+                <div class="form-row text-center">
+                    <div class="col-12">
+                            <button class="btn-enviar mx-auto" type="submit" >ENVIAR</button>
+                    </div>
+                    <div class="col-12">
+                            <span class="d-block texto-mob">As inscrições são gratuitas</span>
+                            <span class="d-block texto-mob verde">Vagas limitadas.</span>
+                    </div>
+                
+                 </div>
+                               
+        </form>
+
+
+      
+    </div>
+
+
+
+
+
+
+    <div id="footer"></div>
+
+
+    <!-- Java Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="/js/app.js"></script>
+
+
+</body>
+
+</html>
